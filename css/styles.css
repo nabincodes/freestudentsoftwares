@@ -8,7 +8,7 @@ body{
   font-family: 'Quicksand', sans-serif;
 }
 
-em,strong{
+.focus{
   color:#FF1237;
 }
 #header{
@@ -21,6 +21,9 @@ em,strong{
   padding-top: 20px;
   padding-bottom: 20px;
 }
+a{
+  color: #ff1237;
+}
 a:hover{
   text-decoration: none;
 }
@@ -29,15 +32,12 @@ a:hover{
 }
 .website{
   background-color: #FAFAFA;
-  padding:20px;
+  padding:20px 30px;
 }
 .website:hover{
   transition: all linear 0.2s;
   cursor: pointer;
   box-shadow: 2px 4px 5px rgba(0,0,0,0.2);
-}
-.website .name {
-  margin-bottom: 20px;
 }
  .website img{
   width: 40px;
@@ -53,4 +53,7 @@ a:hover{
 }
 .website button a{
   color: #fff;
+}
+.card{
+  margin-bottom: 10px;
 }
