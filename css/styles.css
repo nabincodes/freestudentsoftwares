@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #fff;
+}
+em,strong{
+  color:#FF1237;
+}
+#header{
+  background: #1C292E;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#main{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.website{
+  background-color: #FAFAFA;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  padding:20px;
+}
+.website #name {
+  margin-bottom: 20px;
+}
+ .website img{
+  width: 40px;
+  height: auto;
+}
+
+.website .title{
+  font-weight: bold;
+  font-size: 2em;
+  vertical-align: middle;
+}
