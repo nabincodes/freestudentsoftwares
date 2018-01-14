@@ -4,7 +4,10 @@
 }
 body{
   background-color: #fff;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
 }
+
 em,strong{
   color:#FF1237;
 }
@@ -18,21 +21,36 @@ em,strong{
   padding-top: 20px;
   padding-bottom: 20px;
 }
+a:hover{
+  text-decoration: none;
+}
+#intro{
+  margin-bottom: 2em;
+}
 .website{
   background-color: #FAFAFA;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
   padding:20px;
 }
-.website #name {
+.website:hover{
+  transition: all linear 0.2s;
+  cursor: pointer;
+  box-shadow: 2px 4px 5px rgba(0,0,0,0.2);
+}
+.website .name {
   margin-bottom: 20px;
 }
  .website img{
   width: 40px;
   height: auto;
 }
-
 .website .title{
   font-weight: bold;
   font-size: 2em;
   vertical-align: middle;
+}
+.website button{
+  margin-bottom: 15px;
+}
+.website button a{
+  color: #fff;
 }
